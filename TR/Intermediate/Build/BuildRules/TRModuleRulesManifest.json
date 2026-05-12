@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"G:\\unreal_projects\\TR\\TR\\Source\\TR\\TR.Build.cs",
-		"G:\\unreal_projects\\TR\\TR\\Source\\TR.Target.cs",
-		"G:\\unreal_projects\\TR\\TR\\Source\\TREditor.Target.cs"
+		"C:\\UE_Projects\\TR\\TR\\Source\\TR\\TR.Build.cs",
+		"C:\\UE_Projects\\TR\\TR\\Source\\TR.Target.cs",
+		"C:\\UE_Projects\\TR\\TR\\Source\\TREditor.Target.cs"
 	],
 	"EngineVersion": "5.5.4"
 }
