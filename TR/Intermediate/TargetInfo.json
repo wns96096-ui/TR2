@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TR",
+			"Path": "..\\Source\\TR.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TREditor",
+			"Path": "..\\Source\\TREditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
