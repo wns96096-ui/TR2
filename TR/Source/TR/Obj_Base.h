@@ -2,7 +2,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "StatusInterface.h"
+#include "StatusEffectInterface.h"
 #include "GameFramework/Actor.h"
 #include "Test_Jangemul.generated.h"
 

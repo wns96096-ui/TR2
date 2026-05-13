@@ -3,8 +3,7 @@
 
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
-#include "StatusInterface.generated.h"
-
+#include "StatusEffectInterface.generated.h"
 UENUM(BlueprintType)
 enum class EStatusEffectType : uint8
 {

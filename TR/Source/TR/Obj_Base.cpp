@@ -1,7 +1,7 @@
 
-#include "Test_Jangemul.h"
+#include "Obj_base.h"
 #include "Components/BoxComponent.h"
-#include "StatusInterface.h"
+#include "StatusEffectInterface.h"
 
 ATest_Jangemul::ATest_Jangemul()
 {
