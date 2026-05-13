@@ -11,6 +11,8 @@
     <None Include="..\..\Source\TREditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\TR.sln.DotSettings.user" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -29,6 +31,18 @@
     <Filter Include="Source\TR">
       <UniqueIdentifier>{3F8283C8-3027-35FA-9385-092E1661C6E0}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TR\Obj_Base.cpp">
+      <Filter>Source\TR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TR\Obj_Base.h">
+      <Filter>Source\TR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TR\StatusEffectInterface.cpp">
+      <Filter>Source\TR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TR\StatusEffectInterface.h">
+      <Filter>Source\TR</Filter>
+    </ClCompile>
     <None Include="..\..\Source\TR\TR.Build.cs">
       <Filter>Source\TR</Filter>
     </None>
