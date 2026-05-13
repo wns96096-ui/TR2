@@ -3,7 +3,7 @@
 #include "Components/BoxComponent.h"
 #include "StatusEffectInterface.h"
 
-ATest_Jangemul::ATest_Jangemul()
+AObj_Base::AObj_Base()
 {
 	PrimaryActorTick.bCanEverTick = false;
 
@@ -15,10 +15,10 @@ ATest_Jangemul::ATest_Jangemul()
 
 	CollisionBox->OnComponentBeginOverlap.AddDynamic(
 			this,
-			&ATest_Jangemul::OnObstacleBeginOverlap
+			&AObj_Base::OnObstacleBeginOverlap
 	);
 }
-void ATest_Jangemul::OnObstacleBeginOverlap(
+void AObj_Base::OnObstacleBeginOverlap(
 	  UPrimitiveComponent* OverlappedComponent,
 	  AActor* OtherActor,
 	  UPrimitiveComponent* OtherComp,
